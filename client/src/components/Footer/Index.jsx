@@ -45,7 +45,7 @@ function Index() {
               <input type="text" placeholder=" " />
               <span>Your email</span>
             </div>
-            <UseMagnet str="0.4">
+            <UseMagnet str="0.4" drt="0.4">
               <button>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -85,7 +85,7 @@ function Index() {
       </div>
       <div className={style.bottom_section}>
         <div className={style.social_media_container}>
-          <UseMagnet str="0.7">
+          <UseMagnet str="0.7" drt="0.4">
             <a href="">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                 <path
@@ -95,7 +95,7 @@ function Index() {
               </svg>
             </a>
           </UseMagnet>
-          <UseMagnet str="0.7">
+          <UseMagnet str="0.7" drt="0.4">
             <a href="">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                 <path
@@ -105,7 +105,7 @@ function Index() {
               </svg>
             </a>
           </UseMagnet>
-          <UseMagnet str="0.7">
+          <UseMagnet str="0.7" drt="0.4">
             <a href="">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                 <path
@@ -118,23 +118,23 @@ function Index() {
         </div>
         <div className={style.language_container}>
           <nav className={style.language_options}>
-            <UseMagnet str="0.4">
+            <UseMagnet str="0.4" drt="0.4">
               <a href="#" data-lang="ka">
-                <UseMagnet str="0.2">
+                <UseMagnet str="0.2" drt="0.4">
                   <span>ქართული</span>
                 </UseMagnet>
               </a>
             </UseMagnet>
-            <UseMagnet str="0.4">
+            <UseMagnet str="0.4" drt="0.4">
               <a href="#" data-lang="ru">
-                <UseMagnet str="0.2">
+                <UseMagnet str="0.2" drt="0.4">
                   <span>Русский</span>
                 </UseMagnet>
               </a>
             </UseMagnet>
-            <UseMagnet str="0.4">
+            <UseMagnet str="0.4" drt="0.4">
               <a href="#" data-lang="en" style={{ color: "var(--white)" }}>
-                <UseMagnet str="0.2">
+                <UseMagnet str="0.2" drt="0.4">
                   <span>English</span>
                 </UseMagnet>
               </a>

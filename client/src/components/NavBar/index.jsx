@@ -70,7 +70,7 @@ function Index() {
           <div className={style.links_cont}>
             <ul ref={ulRef}>
               <li>
-                <UseMagnet str="0.4">
+                <UseMagnet str="0.4" drt='0.8'>
                   <NavLink
                     to="/works"
                     style={{
@@ -88,17 +88,17 @@ function Index() {
                 </UseMagnet>
               </li>
               <li>
-                <UseMagnet str="0.4">
+                <UseMagnet str="0.4" drt='0.8'>
                   <a href="#">RATE US</a>
                 </UseMagnet>
               </li>
               <li>
-                <UseMagnet str="0.4">
+                <UseMagnet str="0.4" drt='0.8'>
                   <a href="#">ABOUT US</a>
                 </UseMagnet>
               </li>
               <li>
-                <UseMagnet str="0.4">
+                <UseMagnet str="0.4" drt='0.8'>
                   <NavLink
                     to="/contact"
                     style={{
