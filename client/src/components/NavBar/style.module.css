@@ -161,6 +161,10 @@
   transform: scale(1);
 
 }
+.menu_cont .links_cont ul li a:hover .menu_cont .links_cont ul li a::after {
+  transform: scale(0);
+
+}
 @keyframes menu_animation {
   0% {
     border-bottom-left-radius: 120%calc(1vw * 0);
