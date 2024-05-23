@@ -70,10 +70,9 @@ function Index() {
           <div className={style.links_cont}>
             <ul ref={ulRef}>
               <li>
-                <UseMagnet str="0.4" drt='0.8'>
+                <UseMagnet str="0.4" drt="0.8">
                   <NavLink
                     to="/works"
-
                     className={endpoint === "/works" ? style.active : null}
                     onClick={() => {
                       setTimeout(() => {
@@ -81,25 +80,34 @@ function Index() {
                       }, 250);
                     }}
                   >
-                    WORKS
+                    <UseMagnet str="0.15" drt="0.8">
+                      <p>WORKS</p>
+                    </UseMagnet>
                   </NavLink>
                 </UseMagnet>
               </li>
               <li>
-                <UseMagnet str="0.4" drt='0.8'>
-                  <a href="#">RATE US</a>
+                <UseMagnet str="0.4" drt="0.8">
+                  <a href="#">
+                    <UseMagnet str="0.15" drt="0.8">
+                      <p>RATE US</p>
+                    </UseMagnet>
+                  </a>
                 </UseMagnet>
               </li>
               <li>
-                <UseMagnet str="0.4" drt='0.8'>
-                  <a href="#">ABOUT US</a>
+                <UseMagnet str="0.4" drt="0.8">
+                  <a href="#">
+                    <UseMagnet str="0.15" drt="0.8">
+                      <p>ABOUT US</p>
+                    </UseMagnet>
+                  </a>
                 </UseMagnet>
               </li>
               <li>
-                <UseMagnet str="0.4" drt='0.8'>
+                <UseMagnet str="0.4" drt="0.8">
                   <NavLink
                     to="/contact"
-                    
                     className={endpoint === "/contact" ? style.active : null}
                     onClick={() => {
                       setTimeout(() => {
@@ -107,7 +115,9 @@ function Index() {
                       }, 250);
                     }}
                   >
-                    CONTACT
+                    <UseMagnet str="0.15" drt="0.8">
+                      <p>CONTACT</p>
+                    </UseMagnet>
                   </NavLink>
                 </UseMagnet>
               </li>
