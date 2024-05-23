@@ -73,9 +73,7 @@ function Index() {
                 <UseMagnet str="0.4" drt='0.8'>
                   <NavLink
                     to="/works"
-                    style={{
-                      pointerEvents: endpoint === "/works" ? "none" : "all",
-                    }}
+
                     className={endpoint === "/works" ? style.active : null}
                     onClick={() => {
                       setTimeout(() => {
@@ -101,9 +99,7 @@ function Index() {
                 <UseMagnet str="0.4" drt='0.8'>
                   <NavLink
                     to="/contact"
-                    style={{
-                      pointerEvents: endpoint === "/contact" ? "none" : "all",
-                    }}
+                    
                     className={endpoint === "/contact" ? style.active : null}
                     onClick={() => {
                       setTimeout(() => {
