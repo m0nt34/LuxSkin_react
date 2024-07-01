@@ -1,4 +1,4 @@
-import style from "./style.module.css";
+import style from "../../assets/styles/pageLoading.module.css";
 import React from "react";
 import { easeInOut, motion } from "framer-motion";
 

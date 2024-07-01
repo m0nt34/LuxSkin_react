@@ -1,11 +1,11 @@
 import React, { useEffect, useRef } from "react";
 import Footer from "../../components/Footer/Index";
-import style from "./style.module.css";
+import style from "../../assets/styles/contact.module.css";
 import image from "../../assets/images/mockup1.jpg";
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
-import ScrollToTop from '../../Hooks/ScrollToTop'
-import PageLoading from '../../components/PageLoading/Index'
+import ScrollToTop from "../../hooks/ScrollToTop";
+import PageLoading from "../../components/PageLoading/Index";
 const Index = () => {
   const leftSide = useRef(null);
   const rightSide = useRef(null);
@@ -27,7 +27,7 @@ const Index = () => {
 
   return (
     <div className={style.main_cont}>
-      <ScrollToTop/>
+      <ScrollToTop />
       {/* <PageLoadingEnd/> */}
       <div className={style.inside_cont}>
         <div className={style.left_side} ref={leftSide}>
@@ -62,6 +62,6 @@ const Index = () => {
       <Footer />
     </div>
   );
-}
+};
 
 export default PageLoading(Index);

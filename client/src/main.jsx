@@ -4,7 +4,7 @@ import App from "./App.jsx";
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { ParallaxProvider } from "react-scroll-parallax";
-import SmoothScrolling from "./components/SmoothScrolling.jsx";
+import SmoothScrolling from "./features/SmoothScrolling.jsx";
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <SmoothScrolling>

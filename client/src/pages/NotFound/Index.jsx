@@ -1,5 +1,5 @@
 import React from "react";
-import style from "./style.module.css";
+import style from "../../assets/styles/notFound.module.css";
 function Index() {
   return (
     <div className={style.main_cont}>

@@ -1,10 +1,10 @@
-import style from "./style.module.css";
+import style from "../../assets/styles/works.module.css";
 import React, { useRef } from "react";
 import Footer from "../../components/Footer/Index";
 import Filter from "./Filter";
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
-import ScrollToTop from "../../Hooks/ScrollToTop";
+import ScrollToTop from "../../hooks/ScrollToTop";
 import PageLoading from "../../components/PageLoading/Index";
 
 const Index = () => {

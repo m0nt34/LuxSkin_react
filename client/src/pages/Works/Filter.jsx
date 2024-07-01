@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState, useMemo } from "react";
-import style from "./style.module.css";
+import style from "../../assets/styles/works.module.css";
 import { Parallax } from "react-scroll-parallax";
 import { useGSAP } from "@gsap/react";
 
